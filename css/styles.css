@@ -8,7 +8,10 @@
   --button-white: #f5f4fa;
   --footer-grey: rgba(255, 255, 255, 0.6);
 }
-
+section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .logo {
   font-family: "Raleway";
 
@@ -59,6 +62,7 @@ body {
   letter-spacing: 0.06em;
   font-weight: 400;
   color: var(--brand-grey2);
+  /* width: 1600px; */
 }
 
 .mainheader {
@@ -248,4 +252,38 @@ footer a:focus {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+.flex-header {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.flex-mainh {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.flex-projects {
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px 30px;
 }
