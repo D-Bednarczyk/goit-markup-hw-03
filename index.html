@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Zadanie domowe studentów #2</title>
+    <title>Zadanie domowe studentów #4</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
@@ -41,19 +41,16 @@
       </div>
     </header>
     <main>
-      <!--Nagłówek-->
       <section class="mainheader">
-        <div class="container flex-mainh">
+        <div class="container">
           <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
           <button type="button">Zamów usługe</button>
         </div>
       </section>
-
-      <div class="container">
-        <!--Nasze atuty-->
-        <section class="ourperks">
+      <section class="ourperks">
+        <div class="container">
           <h2 class="visually-hidden">Nasze atuty</h2>
-          <ul class="flex-aboutus">
+          <ul class="flex-ourperks">
             <li>
               <h3>LOREM IPSUM</h3>
               <p>
@@ -83,10 +80,12 @@
               </p>
             </li>
           </ul>
-        </section>
-        <!--Czym się zajmujemy-->
-        <section class="aboutus">
-          <h2>Czym się zajmujemy</h2>
+        </div>
+      </section>
+      <!--Czym się zajmujemy-->
+      <section class="aboutus">
+        <div class="container">
+          <h2>Czym się zajmujemy</h2>
           <ul class="flex-aboutus">
             <li>
               <img
@@ -114,12 +113,12 @@
             </li>
           </ul>
         </div>
-        </section>
-        <!--Nasz zespół-->
-        <section class="ourteam">
-          <div class="container">
+      </section>
+      <!--Nasz zespół-->
+      <section class="ourteam">
+        <div class="container">
           <h2>Nasz zespół</h2>
-          <ul class="flex-aboutus">
+          <ul class="flex-teams">
             <li>
               <img
                 src="images/JohnDoe1.jpg"
@@ -127,8 +126,10 @@
                 width="270"
                 height="260"
               />
-              <h3>John Doe</h3>
-              <p>Product Designer</p>
+              <div class="team-wrap">
+                <h3>John Doe</h3>
+                <p>Product Designer</p>
+              </div>
             </li>
             <li>
               <img
@@ -137,8 +138,10 @@
                 width="270"
                 height="260"
               />
-              <h3>John Doe</h3>
-              <p>Frontend Developer</p>
+              <div class="team-wrap">
+                <h3>John Doe</h3>
+                <p>Frontend Developer</p>
+              </div>
             </li>
             <li>
               <img
@@ -147,8 +150,10 @@
                 width="270"
                 height="260"
               />
-              <h3>John Doe</h3>
-              <p>Marketing</p>
+              <div class="team-wrap">
+                <h3>John Doe</h3>
+                <p>Marketing</p>
+              </div>
             </li>
             <li>
               <img
@@ -157,12 +162,14 @@
                 width="270"
                 height="260"
               />
-              <h3>John Doe</h3>
-              <p>UI Designer</p>
+              <div class="team-wrap">
+                <h3>John Doe</h3>
+                <p>UI Designer</p>
+              </div>
             </li>
-          </ul></div>
-        </section>
-      
+          </ul>
+        </div>
+      </section>
     </main>
     <footer>
       <div class="container">
@@ -170,7 +177,7 @@
         <a class="logo" href="index.html" style="text-decoration: none"
           >Web<span class="logo-white">Studio </span></a
         >
-        <address class="address">
+        <address>
           <ul>
             <li>
               <a
